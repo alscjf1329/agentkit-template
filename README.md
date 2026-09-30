@@ -1,14 +1,14 @@
-# project-template
+# agentkit-template
 
 새 프로젝트용 AI 세팅 기본틀. 언어/프레임워크 상관없이 쓰고, 스택별 스킬·플러그인은 `/stack-setup` 이 **그 주 GitHub 트렌드 기준**으로 붙여줌.
 
-추천 엔진: [ai-stack-setup](https://github.com/alscjf1329/ai-stack-setup)
+추천 엔진: [agentkit](https://github.com/alscjf1329/agentkit)
 
 ## 시작하기
 
 ```bash
 # 1. 템플릿으로 새 레포 생성 (또는 GitHub 에서 "Use this template")
-gh repo create my-app --template alscjf1329/project-template --private --clone
+gh repo create my-app --template alscjf1329/agentkit-template --private --clone
 cd my-app
 
 # 2. Claude Code 실행 → 폴더 신뢰(trust) 수락
@@ -21,7 +21,7 @@ claude
 ```
 
 신뢰 수락하면 `.claude/settings.json` 에 등록된 `stack-setup` 플러그인이 자동 설치됨.
-안 뜨면: `/plugin marketplace add alscjf1329/ai-stack-setup` → `/plugin install stack-setup@sheepduck-ai-setup`
+안 뜨면: `/plugin marketplace add alscjf1329/agentkit` → `/plugin install stack-setup@agentkit`
 
 ## 들어있는 것
 
