@@ -1,0 +1,21 @@
+# secrets
+.env
+.env.*
+!.env.example
+.mcp.json
+
+# claude local
+.claude/settings.local.json
+CLAUDE.local.md
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# logs
+*.log
+logs/
